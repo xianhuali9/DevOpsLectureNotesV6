@@ -16,7 +16,7 @@ provider "aws" {
 
 variable "key_name" {
   type = string
-  default = "aws_sydney"
+  default = "ansible100422.pem"
 }
 
 resource "aws_security_group" "jr_ansible" {
@@ -124,7 +124,7 @@ resource "aws_instance" "web2" {
 
 variable "vpc_id" {
   type = string
-  default = "vpc-d11a9fb5"
+  default = "vpc-055434c8de1b2ef45"
 }
 
 
