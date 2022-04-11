@@ -9,6 +9,7 @@ RUN set -e; \
 	; \
 	pip install --upgrade pip; \
 	pip install -r requirements.txt; \
+	pip install uwsgi2.0.15;\
 	apk del .build-deps;
 EXPOSE 5000
 VOLUME /application
